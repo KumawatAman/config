@@ -1,7 +1,7 @@
 {
    "version":"1.0",
    "envConfig":{
-      "target_apigee_env":{
+      "test":{
          "targetServers":[],
          "virtualHosts":[],
          "references":[],
