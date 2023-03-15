@@ -37,7 +37,7 @@
                     </execution>
                     <execution>
                         <id>create-config-kvm</id>
-                        <phase>create</phase>                        
+                        <phase>install</phase>                        
                         <goals>
                             <goal>keyvaluemaps</goal>
                         </goals>
