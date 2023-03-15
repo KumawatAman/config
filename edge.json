@@ -1,0 +1,103 @@
+{
+   "version":"1.0",
+   "envConfig":{
+      "target_apigee_env":{
+         "targetServers":[],
+         "virtualHosts":[],
+         "references":[],
+         "caches":[],
+         "resourcefiles":[],
+         "flowhooks":[],
+         "extensions":[],
+         "keystores":[],
+         "aliases":[],
+        "kvms": [
+        {
+          "name": "ProxyConfig",
+          "entry": [
+            {
+              "name": "demo",
+              "value": "{\"rateLimit\" : \"100pm\",\"quotaLimit\": \"100\",\"quotaUnit\":  \"day\",\"targetURL\": \"https://httpbin.org\"}"
+            }
+          ] }]
+   }},
+   "orgConfig":{
+      "specs":[],
+      "apiProducts":[
+         {
+
+            "name":"demo-Product",
+
+            "apiResources":[
+
+               "/",
+
+               "/**"
+
+            ],
+
+            "approvalType":"auto",
+
+            "attributes":[
+          {
+            "name": "developer.quota.limit",
+            "value": "10000"
+          },
+          {
+            "name": "developer.quota.interval",
+            "value": "1"
+          },
+          {
+            "name": "developer.quota.timeunit",
+            "value": "month"
+          } ],
+
+            "description":"demo Product",
+
+            "displayName":"demo Product",
+
+            "environments":[
+
+               "test",
+
+               "prod"
+
+            ],
+
+            "proxies":[
+
+               "demo"
+
+            ],
+
+            "quota":"10000",
+
+            "quotaInterval":"1",
+
+            "quotaTimeUnit":"month",
+
+            "scopes":[
+
+               
+
+            ]
+
+         }
+      ],
+      "userroles":[],
+      "reports":[],
+      "developers":[],
+      "developerApps":{
+    "Payal.gehlot@neosalpha.com": [
+        {
+          "name": "demo-App",
+          "apiProducts": [
+            "demo-Product"
+          ],
+          "callbackUrl": "",
+          "scopes": []
+        }
+     ] },
+      "importKeys":{}
+   }
+}
