@@ -128,7 +128,7 @@
                 <apigee.username>${username}</apigee.username>
                 <apigee.password>${password}</apigee.password>
                 <apigee.authtype>oauth</apigee.authtype> 
-                <apigee.bearer>eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI0ZjY4N2IwMC00MjcyLTRhNzctYmQ0Yy0xN2VlODNmNzdlOTIiLCJzdWIiOiJjOTlhMzM5MC05N2Y5LTQ1YWItOWFmZi03ZDYxOGRlODU3MWQiLCJzY29wZSI6WyJzY2ltLmVtYWlscy5yZWFkIiwic2NpbS5tZSIsIm9wZW5pZCIsInBhc3N3b3JkLndyaXRlIiwiYXBwcm92YWxzLm1lIiwic2NpbS5pZHMucmVhZCIsIm9hdXRoLmFwcHJvdmFscyJdLCJjbGllbnRfaWQiOiJlZGdlY2xpIiwiY2lkIjoiZWRnZWNsaSIsImF6cCI6ImVkZ2VjbGkiLCJncmFudF90eXBlIjoicGFzc3dvcmQiLCJ1c2VyX2lkIjoiYzk5YTMzOTAtOTdmOS00NWFiLTlhZmYtN2Q2MThkZTg1NzFkIiwib3JpZ2luIjoidXNlcmdyaWQiLCJ1c2VyX25hbWUiOiJwYXlhbC5nZWhsb3RAbmVvc2FscGhhLmNvbSIsImVtYWlsIjoicGF5YWwuZ2VobG90QG5lb3NhbHBoYS5jb20iLCJhdXRoX3RpbWUiOjE2Nzg4ODQ2ODUsImFsIjowLCJyZXZfc2lnIjoiYzAzOGRlNjAiLCJpYXQiOjE2Nzg4ODQ2ODUsImV4cCI6MTY3ODkyNzg4NSwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5hcGlnZWUuY29tIiwiemlkIjoidWFhIiwiYXVkIjpbImVkZ2VjbGkiLCJzY2ltLmVtYWlscyIsInNjaW0iLCJvcGVuaWQiLCJwYXNzd29yZCIsImFwcHJvdmFscyIsInNjaW0uaWRzIiwib2F1dGgiXX0.0UpKPFkOqCppSEXH5MnoEnHJorpf3Eif1KCtiIjeW3Qeoro7mgF7MojTad_utoy_oGtf7MjwWWvt_C2s742QhPkuGgwd6rRUmhnFWLFf0uX05_WccxBBjXJ619C9h6_dBl7WQLLRQy37IDXXzJPZKTTd3y2GUGqKh9VxPdChJCJhUp5h7f6NPpIH6I8RFy0BzkspMPWIPbpPeulJ4mRvx8t3U4t-Tc_QQIx0VBCZ8JVsig9L4x7yFfmTpmJ4l4zIcA_j-NSln-YEvV-xtlKUGgR_V5LYvpP09g0hwz6vWLhDVTOtAtqYBAiy0LWy2jHB1SHsqX8TLWtVq8sL6w5P1Q</apigee.bearer> 
+                <apigee.bearer>${bearer}</apigee.bearer>
                 <!-- <apigee.serviceaccount.file>${file}</apigee.serviceaccount.file> -->
             </properties>
         </profile>
