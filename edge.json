@@ -58,15 +58,12 @@
 
             "environments":[
 
-               "test",
-
-               "prod"
-
+               "test"
             ],
 
             "proxies":[
 
-               "demo"
+               "Naap_demo"
 
             ],
 
