@@ -94,7 +94,7 @@
              "operationGroup": {
                 "operationConfigs": [
                     {
-                      "apiSource": "HelloWorld",
+                      "apiSource": "NATestJenkins",
                       "operations": [
                         {
                           "resource": "/",
@@ -143,7 +143,7 @@
                 "prod"
              ],
              "proxies":[
-                "HelloWorld"
+                "NATestJenkins"
              ],
              "quota":"10000",
              "quotaInterval":"1",
