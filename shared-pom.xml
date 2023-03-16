@@ -127,8 +127,8 @@
                 <apigee.env>test</apigee.env>
                 <apigee.username>${username}</apigee.username>
                 <apigee.password>${password}</apigee.password>
-                <apigee.authtype>oauth</apigee.authtype> 
-                <apigee.bearer>${bearer}</apigee.bearer>
+<!--                 <apigee.authtype>oauth</apigee.authtype> 
+                <apigee.bearer>${bearer}</apigee.bearer> -->
                 <!-- <apigee.serviceaccount.file>${file}</apigee.serviceaccount.file> -->
             </properties>
         </profile>
@@ -142,8 +142,8 @@
                 <apigee.env>test</apigee.env>
                 <apigee.username>${username}</apigee.username>
                 <apigee.password>${password}</apigee.password>
-                <apigee.authtype>oauth</apigee.authtype> <!-- only option -->
-                <apigee.bearer>${bearer}</apigee.bearer> <!-- this takes precedence over service account file -->
+<!--                 <apigee.authtype>oauth</apigee.authtype> -->
+<!--                 <apigee.bearer>${bearer}</apigee.bearer>  -->
                 <!-- <apigee.serviceaccount.file>${file}</apigee.serviceaccount.file> -->
             </properties>
         </profile>
