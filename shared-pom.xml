@@ -29,8 +29,15 @@
                 <version>1.3.2</version>
                 <executions>
                     <execution>
+                        <id>create-config-cache</id>
+                        <phase>verify</phase>                        
+                        <goals>
+                            <goal>caches</goal>
+                        </goals>
+                    </execution>
+                    <execution>
                         <id>create-config-targetserver</id>
-                        <phase>install</phase>                        
+                        <phase>verify</phase>                        
                         <goals>
                             <goal>targetservers</goal>
                         </goals>
@@ -40,27 +47,6 @@
                         <phase>install</phase>                        
                         <goals>
                             <goal>keyvaluemaps</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>create-config-keystores</id>
-                        <phase>install</phase>                        
-                        <goals>
-                            <goal>keystores</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>create-config-aliases</id>
-                        <phase>install</phase>                        
-                        <goals>
-                            <goal>aliases</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>create-config-references</id>
-                        <phase>install</phase>                        
-                        <goals>
-                            <goal>references</goal>
                         </goals>
                     </execution>
                     <execution>
@@ -92,24 +78,10 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>create-config-reports</id>
+                        <id>create-config-maskconfig</id>
                         <phase>install</phase>                        
                         <goals>
-                            <goal>reports</goal>
-                        </goals>
-                    </execution>
-                    <execution> 
-                        <id>create-config-flowhooks</id>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>flowhooks</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>import-app-keys</id>
-                        <phase>install</phase>                        
-                        <goals>
-                            <goal>importKeys</goal>
+                            <goal>maskconfigs</goal>
                         </goals>
                     </execution>
                 </executions>
